@@ -13,16 +13,13 @@
         init-anzu
         init-appearance
         init-circe
-        init-clojure
         init-completion
         init-crontab
         init-deft
         init-defuns
         init-dired
-        init-erc
         init-expand-region
         init-flycheck
-        init-go
         init-haskell
         init-ido
         init-js
@@ -37,12 +34,11 @@
         init-session
         init-settings
         init-snippets
-        init-web
         init-yaml
-        init-org
 		 ))
 (require 'server)
 (unless (server-running-p)
   (server-start))
 (setq custom-file "~/.emacs.d/init/init-custom.el")
 (load custom-file)
+(autoload 'circe "circe" "Connect to IRC" t)

@@ -6,7 +6,14 @@
 
 (setq circe-network-options
       `(("freenode"
-         :nick "fujin"
-         :channels ("#go-chef" "#chef" "#chef-hacking")
+         :nick "grubernaut"
+         :channels ("#kitchenci" "#puppet" "#hangops")
          :nickserv-password ,freenode-password
          )))
+
+(setq circe-reduce-lurker-spam t)
+
+(eval-after-load "circe"
+  '(progn
+     (require 'lui-irc-colors)
+     (add-to-list 'lui-pre-output-hook 'lui-irc-colors)))
