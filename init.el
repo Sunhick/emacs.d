@@ -12,12 +12,12 @@
         init-ack
         init-anzu
         init-appearance
-        init-circe
         init-completion
         init-crontab
         init-deft
         init-defuns
         init-dired
+        init-erc
         init-expand-region
         init-flycheck
         init-haskell
@@ -27,6 +27,7 @@
         init-magit
         init-markdown
         init-modeline
+        init-neo
         init-parens
         init-projectile
         init-python
@@ -41,4 +42,4 @@
   (server-start))
 (setq custom-file "~/.emacs.d/init/init-custom.el")
 (load custom-file)
-(autoload 'circe "circe" "Connect to IRC" t)
+(autoload 'erc "erc" "Connect to IRC" t)
