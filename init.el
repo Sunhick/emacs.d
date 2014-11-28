@@ -24,6 +24,7 @@
         init-ido
         init-js
         init-keymaps
+        init-lua
         init-magit
         init-markdown
         init-modeline

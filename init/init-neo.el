@@ -2,4 +2,4 @@
 
 (quelpa 'neotree)
 
-(global-set-key [f8] 'neotree-toggle)
+(global-set-key (kbd "<f5>") 'neotree-toggle)
