@@ -30,8 +30,9 @@
         init-modeline
         init-neo
         init-parens
-	init-php
+        init-php
         init-projectile
+        init-puppet
         init-python
         init-ruby
         init-session
