@@ -30,6 +30,7 @@
         init-modeline
         init-neo
         init-parens
+	init-php
         init-projectile
         init-python
         init-ruby
