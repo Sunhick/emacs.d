@@ -17,6 +17,7 @@
         init-deft
         init-defuns
         init-dired
+        init-docker
         init-erc
         init-expand-region
         init-flycheck
