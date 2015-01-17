@@ -40,6 +40,8 @@
         init-settings
         init-snippets
         init-yaml
+        init-web
+        init-winnumbers
 		 ))
 (require 'server)
 (unless (server-running-p)

@@ -1,6 +1,6 @@
 (provide 'init-web)
 
-(quelpa '(web-mode :repo "fxbois/web-mode" :fetcher github))
+(quelpa 'web-mode)
 (quelpa 'emmet-mode)
 (add-hook 'web-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
 (add-hook 'emmet-mode-hook (lambda () (setq emmet-indentation 2))) ;; indent 2 spaces.
