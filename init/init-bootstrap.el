@@ -12,7 +12,3 @@
   (with-temp-buffer
     (url-insert-file-contents "https://raw.github.com/quelpa/quelpa/master/bootstrap.el")
     (eval-buffer)))
-
-; Term Hook for Emacs outside of emacsclient
-(add-hook 'term-mode-hook (lambda()
-        (setq yas-dont-activate t)))

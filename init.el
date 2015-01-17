@@ -29,6 +29,7 @@
         init-magit
         init-markdown
         init-modeline
+        init-multiterm
         init-neo
         init-parens
         init-php
