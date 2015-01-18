@@ -29,10 +29,11 @@
         init-magit
         init-markdown
         init-modeline
-        init-multiterm
+        init-multitermp
         init-neo
         init-parens
         init-php
+        init-powerline
         init-projectile
         init-puppet
         init-python
