@@ -21,6 +21,7 @@
         init-erc
         init-expand-region
         init-flycheck
+        init-groovy
         init-haskell
         init-ido
         init-js
@@ -50,4 +51,4 @@
   (server-start))
 (setq custom-file "~/.emacs.d/init/init-custom.el")
 (load custom-file)
-(autoload 'erc "erc" "Connect to IRC" t)
+;(autoload 'erc "erc" "Connect to IRC" t)

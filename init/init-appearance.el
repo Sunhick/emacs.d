@@ -4,9 +4,11 @@
 ;	  :repo "fujin/emacs-color-theme-solarized"
 ;	  :fetcher github))
 
-(quelpa 'monokai-theme)
+;(quelpa 'monokai-theme)
+(quelpa 'zenburn-theme)
 (quelpa 'dash)
 (require 'dash)
 
 ;(load-theme 'solarized-dark t)
-(load-theme 'monokai t)
+;(load-theme 'monokai t)
+(load-theme 'zenburn t)
