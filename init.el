@@ -51,4 +51,7 @@
   (server-start))
 (setq custom-file "~/.emacs.d/init/init-custom.el")
 (load custom-file)
-;(autoload 'erc "erc" "Connect to IRC" t)
+(eval-after-load "go-mode"
+  '(progn
+     (setq gofmt-command "goimports")
+     (add-hook 'before-save-hook #'gofmt-before-save)))
