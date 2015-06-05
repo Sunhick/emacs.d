@@ -54,4 +54,6 @@
 (eval-after-load "go-mode"
   '(progn
      (setq gofmt-command "goimports")
+     ;; Run Go in Current Buffer
+     (define-key go-mode-map (kbd "C-x x") 'go-run)
      (add-hook 'before-save-hook #'gofmt-before-save)))
