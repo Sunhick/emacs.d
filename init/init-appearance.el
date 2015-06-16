@@ -11,4 +11,4 @@
 ;(load-theme 'zenburn t)
 ;(load-theme 'wilson)
 ;(load-theme 'misterioso)
-(load-theme 'base16-eighties-dark)
+(load-theme 'base16-eighties-dark t)
