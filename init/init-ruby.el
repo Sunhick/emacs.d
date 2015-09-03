@@ -9,7 +9,6 @@
 (add-to-list 'auto-mode-alist '("\\.rb$" . enh-ruby-mode))
 (add-to-list 'interpreter-mode-alist '("ruby" . enh-ruby-mode))
 
-(quelpa 'bundler)
 (quelpa 'rspec-mode)
 (quelpa 'ruby-refactor)
 (quelpa 'enh-ruby-mode)
